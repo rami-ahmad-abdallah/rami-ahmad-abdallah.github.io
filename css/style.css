@@ -4,6 +4,8 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Cairo", Arial;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 :root {
@@ -295,6 +297,9 @@ main .skills .stack .tech .info .progress-bar .progress {
   height: 100%;
   background: var(--accent-color);
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 main .projects {
   display: flex;
